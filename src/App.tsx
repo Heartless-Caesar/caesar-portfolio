@@ -1,10 +1,8 @@
 import "./App.css";
-import Navbar from "./components/Navbar.tsx";
 
 function App() {
   return (
     <div className="min-h-screen font-sans bg-gradient-to-r from-slate-900 to-slate-700">
-      <Navbar />
       <div className="container text-amber-50 px-4 md:px-20 lg:px-40 xl:px-80 py-10 md:py-20">
         <h4 className="text-2xl sm:text-3xl">Hello there, I'm</h4>
         <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mt-4 sm:mt-8">
